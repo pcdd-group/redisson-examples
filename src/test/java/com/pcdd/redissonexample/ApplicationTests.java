@@ -26,7 +26,7 @@ class ApplicationTests {
         }
 
         // 返回此实例所需的 Redis 内存中的 bits
-        System.out.println("占用内存：" + bloomFilter.getSize() / 8 / 1024 + "MB");
+        System.out.println("占用内存：" + bloomFilter.getSize() / 8 / 1024 + "KB");
         // 计算已添加到布隆过滤器的元素的概率数量
         System.out.println("已添加到布隆过滤器的元素的概率数量：" + bloomFilter.count());
         // 检查元素是否存在
