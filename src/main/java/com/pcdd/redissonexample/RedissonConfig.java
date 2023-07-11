@@ -1,4 +1,4 @@
-package com.example.redissonexample;
+package com.pcdd.redissonexample;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;

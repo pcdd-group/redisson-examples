@@ -1,4 +1,4 @@
-package com.example.redissonexample;
+package com.pcdd.redissonexample;
 
 import org.junit.jupiter.api.Test;
 import org.redisson.api.RBloomFilter;
