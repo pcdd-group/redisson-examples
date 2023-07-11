@@ -12,6 +12,9 @@ class ApplicationTests {
     @Autowired
     RedissonClient redisson;
 
+    /**
+     * https://www.javadoc.io/doc/org.redisson/redisson/latest/org/redisson/api/RBloomFilter.html
+     */
     @Test
     void bloomFilterTest() {
         RBloomFilter<Integer> bloomFilter = redisson.getBloomFilter("sample");
